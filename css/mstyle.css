@@ -1,0 +1,115 @@
+.c1 {
+	width:50%;
+	margin:0 auto;
+    display: inline-block;
+    float:none;	
+}
+
+/*
+.navbar-default .navbar-nav > .dropdown-menu > a, 
+.navbar-default .navbar-nav > .dropdown-menu > a:hover,
+.navbar-default .navbar-nav > .dropdown-menu > a:focus {
+	color: #fff; 
+	background-color: #f00;
+}*/
+
+  .navbar-default { /*Default menu bg color*/
+    background-color: #002766;
+    border-color: #003671;
+}
+
+  .navbar-default .navbar-nav > li > a { /*Default menu color*/
+   color: white; 
+    }
+
+.navbar-default .navbar-nav>li>a:hover { /* First level menu */
+    color: #555;
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {/* Menu left margin*/
+    margin-left: -32px;
+}
+
+.open .dropdown-menu>li>a, 
+.open .dropdown-menu, 
+.open .dropdown-toggle:active,
+.open .dropdown-toggle { /*Drop down menu */
+    background-color: #002766;
+    color:white;
+  }
+
+/*Nav-brand menu item*/
+.navbar-default .navbar-brand {
+    color: #EFEFEF;
+}
+.navbar-default .navbar-brand:hover {
+    color: #e7e7e7;
+}    
+   
+.hf-bg-color { /* Header & Footer BG color*/
+	background-color: #002766;
+}
+
+/*Cart Basket icon*/
+.btn-info {
+    color: #FFF;
+    background-color: #337AB7;
+    border-color: #002766;
+}
+.btn-info:hover {
+    color: #002766;
+    background-color: #EFEFEF;
+    border-color: #337AB7;
+}	
+	
+.c2 {
+	width:60%;
+}
+.form-inline .form-group input {
+	width:70%;
+}
+.centered{
+	width:70%;
+    margin-left:15%;
+}
+.img1  {
+	width:100px;
+	height:100px;
+}
+.img2  {/*shopping cart image*/
+	width:30px;
+	height:30px;
+	margin-right:1%;
+}
+.img3  {
+	width:200px;
+	height:200px;
+}
+
+.sidebar-bg { /*Sidebar product and news*/
+	background-color: #efefef;
+}
+
+.recent-items-bg { /*Recent Items bg color*/
+	background-color: #bbb;
+}
+
+p.mycite { /*Footer text*/
+    color: #fff;
+    text-align: center;
+}
+
+h3{text-align:center;}
+h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+.card1 {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 100px;
+}
+h4.title {
+  text-align: center;
+}
