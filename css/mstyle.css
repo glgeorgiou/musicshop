@@ -5,6 +5,10 @@
     float:none;	
 }
 
+.c2 {
+	width:60%;
+}
+
 /*
 .navbar-default .navbar-nav > .dropdown-menu > a, 
 .navbar-default .navbar-nav > .dropdown-menu > a:hover,
@@ -63,9 +67,7 @@
     border-color: #337AB7;
 }	
 	
-.c2 {
-	width:60%;
-}
+
 .form-inline .form-group input {
 	width:70%;
 }

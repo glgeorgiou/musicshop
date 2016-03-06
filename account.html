@@ -21,7 +21,7 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hf-bg-color">
 			   <img src="images/logo.png" class="img-responsive img1" alt="Responsive image">
-				<div class="input-group c2 centered">
+			<div class="input-group c2 centered">
 			   <input type="text" class="form-control">
 			   <span class="input-group-btn">
 					<button class="btn btn-default" type="button">Αναζήτηση</button>
@@ -38,8 +38,8 @@
 					<span class="icon-bar"></span>
 			   </button>
 				  <a class="navbar-brand" href="index.html">M.O.E</a>
-				</div>
-					<div class="collapse navbar-collapse" id="navbar1">
+			  </div>
+				<div class="collapse navbar-collapse" id="navbar1">
 				  <ul class="nav navbar-nav">
 				  <li class="dropdown">
 				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >Προϊόντα<span class="caret"></span></a>
@@ -73,7 +73,13 @@
 	</div>
 
 	<div  class=" col-lg-8 col-md-8 col-sm-6 col-xs-12">
-	<div class="table-responsive">          
+	<div class="panel panel-default"> <!-- Login/Register buttons -->
+		<div class="panel-body">
+			Εάν δεν έχετε κάνει εγγραφή κάντε κλικ στο <a href="registration-in.php" type="button" class="btn btn-default">Εγγραφή χρήστη</a><br />
+			Εάν είσαστε εγγεγραμμένος χρήστης κάντε κλικ στο <a href="account-in.php" type="button" class="btn btn-default">Είσοδος χρήστη</a><br />
+		</div>
+	</div
+	<div class="table-responsive"> 	
 	  <table class="table">
 		<thead>
 		  <tr>
@@ -133,30 +139,15 @@
 	<div class="row">
 	<h3>Ρυθμίσεις Λογαριασμού</h3>
 
-
-	<div  class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-	</div>
-
+	<div  class="col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
 	<div  class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
 		<div class="plaisio">
-
-		<button type="button" class="btn btn-default"> Όνομα Χρήστη & Κωδικός</button>
-		<br>
-		<br>
-		<button type="button" class="btn btn-default"> Προσωπικές Πληροφορίες</button>
-		<br>
-		<br>
-		<button type="button" class="btn btn-default"> Πληρωμή</button>
-		<br>
-		<br>
-
+			<p><button type="button" class="btn btn-default"> Όνομα Χρήστη & Κωδικός</button></p>
+			<p><button type="button" class="btn btn-default"> Προσωπικές Πληροφορίες</button></p>
+			<p><a href="paypal.html" type="button" class="btn btn-default">Πληρωμή</a></p>
 		</div>
 	</div>
-
-	<div  class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-
-	</div>
+	<div  class="col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
  </div>
 </div>
 
@@ -164,12 +155,12 @@
 <div class="container-fluid footer1">
 
 <div class="row">
-<div style="background-color:#173b82;" class="col-md-12 col-sm-12 col-xs-12">
+<div style="background-color:#002766;" class="col-md-12 col-sm-12 col-xs-12">
 <!-- Footer starts-->
 <div class="container-fluid footer1">
 
 	<div class="row">
-		<div style="background-color:#173b82;" class="col-md-12 col-sm-12 col-xs-12 hf-bg-color">
+		<div class="col-md-12 col-sm-12 col-xs-12 hf-bg-color">
 			<p class="mycite">
 			Copyright (c) Music Organ Experts
 			</p>
